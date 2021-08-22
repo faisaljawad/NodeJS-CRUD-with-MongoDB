@@ -7,7 +7,7 @@ var userSchema = new mongoose.Schema({
     "email": {
         type: String
     },
-    mobile: {
+    "mobile": {
         type: String
     }
 });

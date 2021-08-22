@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('http://localhost:27017/NodeJS_crud', { useNewUrlParser : true}, (err) => {
+mongoose.connect('mongodb://localhost:27020/?readPreference=primary&appname=MongoDB%20Compass&ssl=false', { useNewUrlParser : true}, (err) => {
     if(!err)
         console.log("MongoDB Connected");
     else
